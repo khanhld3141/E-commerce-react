@@ -1,0 +1,61 @@
+.shop .category{
+    padding: 30px;
+    height: 90vh;
+}
+.chead h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.chead h1:nth-child(2){
+    border-left: 3px solid rgba(0, 0, 0, 0.5);
+    padding-left: 70px;
+}
+.chead h1.active{
+    opacity: 1;
+}
+.shop .category .box{
+    background-color: #f6f9fc;
+    margin: 15px 0;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.shop .category img{
+    width: auto;
+    height: auto;
+}
+.shop .category .box:hover{
+    background-color: #fff;
+    box-shadow: 0 4px 16px rgba(43,52,69,.1);
+}
+.shop .category .box2{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.shop .category .box2 button{
+    padding: 10px;
+    background: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.shop .contentWidth{
+    margin-left: 30px;
+}
+.gird1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+
+}
+.shop .product img{
+    width: 100%;
+}
+.shop .product:hover{
+    box-shadow: 0 4px 16px rgba(43,52,69,.1);
+
+}

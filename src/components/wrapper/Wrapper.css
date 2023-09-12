@@ -1,0 +1,29 @@
+.wrapper{
+    margin-top: 70px;
+    text-align: center;
+}
+.wrapper .img {
+    margin: auto;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.wrapper .product{
+    padding: 30px;
+}
+.wrapper h3{
+    font-weight: 500;
+}
+.wrapper p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: grey;
+}
+.gird2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+
+}

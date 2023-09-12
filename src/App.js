@@ -6,9 +6,12 @@ import Pages from './pages/Pages';
 import ProductItems from './components/flashDeals/FlashData';
 import { useState } from 'react';
 import Cart from './common/cart/Cart';
+import SData from './components/shop/SData'
+import Footer from './common/footer/Footer';
 function App() {
   const [cardItem, setCardItem] = useState([]);
   const [liked, setLiked] = useState(true);
+
   const addToCart = (product) => {
     const productExist = cardItem.find((item) => item.id === product.id);
     if (productExist) {
@@ -47,9 +50,10 @@ function App() {
       <Router>
         <Header cardItem={cardItem} />
         <Switch>
-          <Route path='/' exact><Pages increaseLike={increaseLike} ProductItems={ProductItems} addToCart={addToCart} /></Route>
+          <Route path='/' exact><Pages increaseLike={increaseLike} ShopData={SData} ProductItems={ProductItems} addToCart={addToCart} /></Route>
           <Route path='/cart' exact><Cart cardItem={cardItem} addToCart={addToCart} deleteOne={deleteOne} deleteProduct={deleteProduct} /></Route>
         </Switch>
+        <Footer/>
       </Router>
     </>
   );
