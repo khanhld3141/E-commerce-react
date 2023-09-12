@@ -104,3 +104,156 @@ input, button{
 
 
 /* -----------------category ----------------*/
+.btn-primary{
+  background-color: #e94560;
+  padding: 13px 40px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: #ea7387;
+}
+.top{
+  margin-top: 120px;
+}
+.mtop{
+  margin-top: 40px;
+}
+
+.heading i{
+  color: #e94560;
+  margin: 10px;
+}
+
+/*------------------products ------------------------------*/
+.product{
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  box-shadow: rgb(3 0 71 / 9% ) 0 1px 3px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.product h3{
+  font-weight: 400;
+  font-size: 17px;
+}
+.product .rate i{
+  font-size: 15px;
+  color: #ffcd4e;
+  margin: 5px 5px 5px 0;
+
+}
+.product .price{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #e94560;
+}
+.product button{
+  background-color: none;
+  color: #e94560;
+  font-size: 15px;
+  border: 1px solid rgb(3 0 71 / 9% );
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.product button:hover{
+  cursor: pointer;
+  background-color: #e94560;
+  color: #fff;
+}
+.img .header{
+  display: flex;
+}
+.discount{
+  background-color: #e94560;
+  border-radius: 40px;
+  padding: 2px 10px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  opacity: 0;
+  transition: 0.5s;
+}
+.product-like{
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  font-size: 18px;
+  transition: 0.5s;
+  opacity: 0;
+}
+.product-like i:hover{
+  color: #e94560;
+}
+.product-like i.active{
+  color: #e94560;
+}
+.product:hover .product-like,
+.product:hover .discount{
+  opacity: 1;
+}
+.product-like label{
+  background-color: #e94560;
+  padding: 1px 10px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 50px;
+}
+
+/*------------------products ------------------------------*/
+
+/*------------------control btn ------------------------------*/
+.control-btn .next,
+.control-btn .prev{
+  position: absolute;
+  top: 40%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(234, 230, 230);
+  transition: 0.5s;
+  z-index: 10;
+  border-radius: 50%;
+  color: #e94560;
+  font-size: 20px;
+  cursor: pointer;
+}
+.control-btn .next:hover,
+.control-btn .prev:hover{
+  background-color: #e94560;
+  color: #fff;
+}
+
+
+.control-btn .prev{
+  left: -20px;
+}
+.control-btn .next{
+  right: -20px;
+}
+/*------------------control btn ------------------------------*/
+
+/*--------------------arrivals and big discounts ------------------------------*/
+.arrivals h1{
+  margin-top: 12px;   
+}
+.arrivals i{
+  font-size: 38px;
+}
+.new-arrivals{
+  margin-top: 20px;
+}
+.new-arrivals .name-arrival{
+  font-weight: bold;
+}
+.new-arrivals .price-arrival{
+  color: #e94560;
+}

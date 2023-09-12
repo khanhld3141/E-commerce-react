@@ -1,3 +1,6 @@
+.homeSlide .box{
+    display: flex!important;
+}
 .homeSlide ul{
     position: absolute;
     bottom: 20px;
@@ -19,25 +22,18 @@
     left: 0;
     margin: auto;
 }
-.top{
-    margin-top: 20px;
-    display: flex !important;
-    padding: 0 30px;
-}
 .top .left{
     width: 65%;
-    margin-top: 100px;
 }
 .top .left h1{
     font-size: 45px;
 }
-.top .left span{
+.top .left p{
     font-size: 16px;
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 .top .right{
     width: 35%;
-    margin-top: 100px;
 }
 .top .right img{
     width: 100%;
